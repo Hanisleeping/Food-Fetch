@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Fetch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body class=" bg-[url(/Background.png)] bg-no-repeat bg-center-center bg-cover flex flex-col items-center p-6">
+    <div class="my-10">
+        <div class="flex gap-2 my-6 mb-6 w-full max-w-md">
+            <h1 class="text-3xl font-bold mb-6 text-[#9b2234]">Get food list based on country </h1>
+        </div>
+        <div class="flex gap-2 mb-6 my-4 w-full max-w-md">
+            <input id="countryInput" type="text" placeholder="Enter country name"
+            class="flex-1 border text-[#a72e40] rounded-lg p-2 ">
+            <button id="searchBtn" class="bg-[#9b2e40] text-white px-4 py-2 rounded-lg hover:bg-[#e18721]">Search</button>
+        </div>
+    </div>
+    <div class="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
